@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E301ECF5F41B77B14D39725 /* Pods_DemoRSATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140ADB83EA4D6454284C507A /* Pods_DemoRSATests.framework */; };
+		EDF824BE03CAF620FA7F71D8 /* Pods_DemoRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECF14CFE68CA73655D71BB /* Pods_DemoRSA.framework */; };
 		F3FF17FB22C6C8DC00A0120B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF17FA22C6C8DC00A0120B /* AppDelegate.swift */; };
 		F3FF17FD22C6C8DC00A0120B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF17FC22C6C8DC00A0120B /* ViewController.swift */; };
 		F3FF180022C6C8DC00A0120B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FF17FE22C6C8DC00A0120B /* Main.storyboard */; };
 		F3FF180222C6C8E000A0120B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FF180122C6C8E000A0120B /* Assets.xcassets */; };
 		F3FF180522C6C8E000A0120B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FF180322C6C8E000A0120B /* LaunchScreen.storyboard */; };
 		F3FF181022C6C8E000A0120B /* DemoRSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF180F22C6C8E000A0120B /* DemoRSATests.swift */; };
+		F3FF182222C6DF8300A0120B /* com.pe.foh.cer in Resources */ = {isa = PBXBuildFile; fileRef = F3FF182122C6DF8200A0120B /* com.pe.foh.cer */; };
+		F3FF182422C6E2A300A0120B /* public.pem in Resources */ = {isa = PBXBuildFile; fileRef = F3FF182322C6E2A300A0120B /* public.pem */; };
+		F3FF182722C6E6C900A0120B /* public.der in Resources */ = {isa = PBXBuildFile; fileRef = F3FF182622C6E6C900A0120B /* public.der */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140ADB83EA4D6454284C507A /* Pods_DemoRSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoRSATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC76AE31577BE8CF4437CB6 /* Pods-DemoRSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoRSA.debug.xcconfig"; path = "Target Support Files/Pods-DemoRSA/Pods-DemoRSA.debug.xcconfig"; sourceTree = "<group>"; };
+		DDFAD75970842ABA51D28E01 /* Pods-DemoRSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoRSATests.debug.xcconfig"; path = "Target Support Files/Pods-DemoRSATests/Pods-DemoRSATests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1A5855D4D9FC41532729FA5 /* Pods-DemoRSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoRSATests.release.xcconfig"; path = "Target Support Files/Pods-DemoRSATests/Pods-DemoRSATests.release.xcconfig"; sourceTree = "<group>"; };
+		E427EDD7256847005DD5E14B /* Pods-DemoRSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoRSA.release.xcconfig"; path = "Target Support Files/Pods-DemoRSA/Pods-DemoRSA.release.xcconfig"; sourceTree = "<group>"; };
+		F0ECF14CFE68CA73655D71BB /* Pods_DemoRSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoRSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FF17F722C6C8DC00A0120B /* DemoRSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoRSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FF17FA22C6C8DC00A0120B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3FF17FC22C6C8DC00A0120B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +47,9 @@
 		F3FF180B22C6C8E000A0120B /* DemoRSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoRSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FF180F22C6C8E000A0120B /* DemoRSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoRSATests.swift; sourceTree = "<group>"; };
 		F3FF181122C6C8E000A0120B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FF182122C6DF8200A0120B /* com.pe.foh.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = com.pe.foh.cer; sourceTree = "<group>"; };
+		F3FF182322C6E2A300A0120B /* public.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public.pem; sourceTree = "<group>"; };
+		F3FF182622C6E6C900A0120B /* public.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public.der; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF824BE03CAF620FA7F71D8 /* Pods_DemoRSA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E301ECF5F41B77B14D39725 /* Pods_DemoRSATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F97E55A733AFA3DE840CBC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FC76AE31577BE8CF4437CB6 /* Pods-DemoRSA.debug.xcconfig */,
+				E427EDD7256847005DD5E14B /* Pods-DemoRSA.release.xcconfig */,
+				DDFAD75970842ABA51D28E01 /* Pods-DemoRSATests.debug.xcconfig */,
+				E1A5855D4D9FC41532729FA5 /* Pods-DemoRSATests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		972C1F199DAC6548CC66AC8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0ECF14CFE68CA73655D71BB /* Pods_DemoRSA.framework */,
+				140ADB83EA4D6454284C507A /* Pods_DemoRSATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3FF17EE22C6C8DC00A0120B = {
 			isa = PBXGroup;
 			children = (
 				F3FF17F922C6C8DC00A0120B /* DemoRSA */,
 				F3FF180E22C6C8E000A0120B /* DemoRSATests */,
 				F3FF17F822C6C8DC00A0120B /* Products */,
+				6F97E55A733AFA3DE840CBC8 /* Pods */,
+				972C1F199DAC6548CC66AC8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +115,15 @@
 		F3FF17F922C6C8DC00A0120B /* DemoRSA */ = {
 			isa = PBXGroup;
 			children = (
+				F3FF182322C6E2A300A0120B /* public.pem */,
+				F3FF182122C6DF8200A0120B /* com.pe.foh.cer */,
 				F3FF17FA22C6C8DC00A0120B /* AppDelegate.swift */,
 				F3FF17FC22C6C8DC00A0120B /* ViewController.swift */,
 				F3FF17FE22C6C8DC00A0120B /* Main.storyboard */,
 				F3FF180122C6C8E000A0120B /* Assets.xcassets */,
 				F3FF180322C6C8E000A0120B /* LaunchScreen.storyboard */,
 				F3FF180622C6C8E000A0120B /* Info.plist */,
+				F3FF182622C6E6C900A0120B /* public.der */,
 			);
 			path = DemoRSA;
 			sourceTree = "<group>";
@@ -103,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3FF181422C6C8E000A0120B /* Build configuration list for PBXNativeTarget "DemoRSA" */;
 			buildPhases = (
+				A4CDA2F88036F360CAF19B9A /* [CP] Check Pods Manifest.lock */,
 				F3FF17F322C6C8DC00A0120B /* Sources */,
 				F3FF17F422C6C8DC00A0120B /* Frameworks */,
 				F3FF17F522C6C8DC00A0120B /* Resources */,
+				C8ED42A7642FB92CE806A7A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3FF181722C6C8E000A0120B /* Build configuration list for PBXNativeTarget "DemoRSATests" */;
 			buildPhases = (
+				EF6D3EC5CDB6EEE770F23166 /* [CP] Check Pods Manifest.lock */,
 				F3FF180722C6C8E000A0120B /* Sources */,
 				F3FF180822C6C8E000A0120B /* Frameworks */,
 				F3FF180922C6C8E000A0120B /* Resources */,
@@ -178,8 +222,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3FF180522C6C8E000A0120B /* LaunchScreen.storyboard in Resources */,
+				F3FF182222C6DF8300A0120B /* com.pe.foh.cer in Resources */,
 				F3FF180222C6C8E000A0120B /* Assets.xcassets in Resources */,
 				F3FF180022C6C8DC00A0120B /* Main.storyboard in Resources */,
+				F3FF182722C6E6C900A0120B /* public.der in Resources */,
+				F3FF182422C6E2A300A0120B /* public.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +238,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4CDA2F88036F360CAF19B9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoRSA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8ED42A7642FB92CE806A7A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoRSA/Pods-DemoRSA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoRSA/Pods-DemoRSA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoRSA/Pods-DemoRSA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6D3EC5CDB6EEE770F23166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoRSATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3FF17F322C6C8DC00A0120B /* Sources */ = {
@@ -358,6 +469,7 @@
 		};
 		F3FF181522C6C8E000A0120B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC76AE31577BE8CF4437CB6 /* Pods-DemoRSA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +488,7 @@
 		};
 		F3FF181622C6C8E000A0120B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E427EDD7256847005DD5E14B /* Pods-DemoRSA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +507,7 @@
 		};
 		F3FF181822C6C8E000A0120B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFAD75970842ABA51D28E01 /* Pods-DemoRSATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +529,7 @@
 		};
 		F3FF181922C6C8E000A0120B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A5855D4D9FC41532729FA5 /* Pods-DemoRSATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
